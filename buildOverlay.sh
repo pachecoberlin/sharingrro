@@ -17,3 +17,6 @@ adb shell pm uninstall de.pacheco.rro
 adb remount
 adb shell  mount -o remount,rw /
 adb push myoverlays.apk product/overlay
+adb shell cmd overlay enable de.pacheco.rro
+adb shell cmd overlay list
+# adb reboot
