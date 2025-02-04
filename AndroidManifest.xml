@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.pacheco.rro">
+    package="de.pacheco.rro.systemui">
 
     <application android:hasCode="false" />
-    <!--overlay android:targetPackage="com.android.car.carlauncher" 
-	         android:targetName="CarLauncher"
-			 android:resourcesMap="@xml/overlays"
-			 android:priority="7001"			 
-			 /-->
 	<overlay android:targetName="CarSystemUI"
              android:targetPackage="com.android.systemui"
              android:resourcesMap="@xml/overlays"
              android:isStatic="false"
-			 android:priority="7002"
+			 android:priority="9009"
 			 />
+	<!-- <overlay android:targetPackage="com.android.systemui" -->
+        <!-- android:targetName="config_enableBottomSystemBar" -->
+        <!-- android:resource="@bool/config_enableBottomSystemBar" /> -->
 
 </manifest>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <overlay xmlns:android="http://schemas.android.com/apk/res/android" >
-    <!--item target="drawable/ic_launcher_home" value="@drawable/ic_launcher_home" /-->
 	<item target="layout/car_bottom_system_bar" value="@layout/car_passenger_bottom_system_bar"/>
+	<item target="config_enableBottomSystemBar" value="false"/>
+	<item target="config_leftBottomSystemBar" value="true"/>
+	<item target="config_rightBottomSystemBar" value="true"/>
 </overlay>
