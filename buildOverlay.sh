@@ -19,4 +19,5 @@ adb shell  mount -o remount,rw /
 adb push systemuirro.apk product/overlay
 adb shell cmd overlay enable de.pacheco.rro.systemui
 adb shell cmd overlay list
+adb shell pkill -TERM -f com.android.systemui
 # adb reboot

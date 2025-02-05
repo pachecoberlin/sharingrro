@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <overlay xmlns:android="http://schemas.android.com/apk/res/android" >
 	<item target="layout/car_bottom_system_bar" value="@layout/car_passenger_bottom_system_bar"/>
-	<item target="config_enableBottomSystemBar" value="false"/>
-	<item target="config_leftBottomSystemBar" value="true"/>
-	<item target="config_rightBottomSystemBar" value="true"/>
+	<item
+        target="string/config_appGridComponentName"
+        value="@string/config_appGridComponentName" />
+
+    <item
+        target="bool/config_enableTopSystemBar"
+        value="@bool/config_enableTopSystemBar" />
+    <item
+        target="bool/config_enableLeftSystemBar"
+        value="@bool/config_enableLeftSystemBar" />
+    <item
+        target="bool/config_enableRightSystemBar"
+        value="@bool/config_enableRightSystemBar" />
+    <item
+        target="bool/config_enableBottomSystemBar"
+        value="@bool/config_enableBottomSystemBar" />
+    <item
+        target="bool/config_showHeadsUpNotificationOnBottom"
+        value="@bool/config_showHeadsUpNotificationOnBottom" />
+
+    <item
+        target="integer/config_topSystemBarType"
+        value="@integer/config_topSystemBarType" />
+    <item
+        target="integer/config_leftSystemBarType"
+        value="@integer/config_leftSystemBarType" />
+    <item
+        target="integer/config_rightSystemBarType"
+        value="@integer/config_rightSystemBarType" />
+    <item
+        target="integer/config_bottomSystemBarType"
+        value="@integer/config_bottomSystemBarType" />
+    <item
+        target="integer/config_topSystemBarZOrder"
+        value="@integer/config_topSystemBarZOrder" />
+    <item
+        target="integer/config_leftSystemBarZOrder"
+        value="@integer/config_leftSystemBarZOrder" />
+    <item
+        target="integer/config_rightSystemBarZOrder"
+        value="@integer/config_rightSystemBarZOrder" />
+    <item
+        target="integer/config_bottomSystemBarZOrder"
+        value="@integer/config_bottomSystemBarZOrder" />
+    <item
+        target="integer/config_statusIconLayoutOrientation"
+        value="@integer/config_statusIconLayoutOrientation" />
+
+    <item
+        target="string/config_notificationPanelViewMediator"
+        value="@string/config_notificationPanelViewMediator" />
+    <item
+        target="integer/config_systemBarPersistency"
+        value="@integer/config_systemBarPersistency" />
+    <item
+        target="integer/config_showDisplayCompatToolbarOnSystemBar"
+        value="@integer/config_showDisplayCompatToolbarOnSystemBar" />
+	
 </overlay>
